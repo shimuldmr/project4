@@ -1,0 +1,28 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.welcome{
+    font-size: 35px;
+    
+}
+.welcome-color{
+    color: coral;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+}
+.half img{
+    width: 80%;
+}
+.link-hire{
+    text-decoration: none;
+    background-image: linear-gradient(coral, orange );
+    padding: 15px 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-weight: 400;
+
+}
