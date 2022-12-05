@@ -37,3 +37,18 @@ body{
 .button-m{
     margin-bottom: 30px;
 }
+
+
+.dream-big{
+    display: flex;
+}
+
+.dream-img{
+    width: 50%;
+}
+.dream-img img{
+    width: 80%;
+}
+.dream-dis{
+    width: 50%;
+}
