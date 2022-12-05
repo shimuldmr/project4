@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 .welcome{
     font-size: 35px;
@@ -8,11 +9,11 @@ body{
 .welcome-color{
     color: coral;
 }
-section{
-    display: flex;
-}
+
+
 .half{
     width: 50%;
+    margin-left: 80px;
 }
 .half img{
     width: 80%;
@@ -25,4 +26,14 @@ section{
     border-radius: 10px;
     font-weight: 400;
 
+}
+.first{
+    display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+}
+.button-m{
+    margin-bottom: 30px;
 }
