@@ -29,9 +29,10 @@ body{
 }
 .first{
     display: flex;
-    background-image: url(top-banner.png);
+    background-image: url();
     background-repeat: no-repeat;
     margin-top: 50px;
+    margin-bottom: 100px;
 
 }
 .button-m{
@@ -50,5 +51,42 @@ body{
     width: 80%;
 }
 .dream-dis{
-    width: 50%;
+    width: 40%;
+    margin-top: 120px;
+}
+.dream-dis h2{
+    font-size: 40px;
+    color: orange;
+    text-transform:capitalize;
+}
+.dream-dis h3{
+    font-size: 30px;
+    text-transform:capitalize;
+}
+.dream-dis p{
+    font-size: 20px;
+}
+
+/* experiences third */
+.ex-dis{
+    display: flex;
+}
+.ex{
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 40px;
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 20px;
+    border-left: 9px solid black;
+}
+.ex-dis{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.ex-pad{
+    margin:60px 70px;
+    font-size: 35px;
+
 }
